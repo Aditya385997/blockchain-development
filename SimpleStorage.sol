@@ -2,6 +2,7 @@
 pragma solidity ^0.8.7;
 
 //write a contract, Contract is similar to a class
+//The Simple storage Contract Could Have More Variables And Funtion Which can be Manage By Another Contract example Storage FActory
 contract SimpleStorage
 {
    uint256 favNumber;
