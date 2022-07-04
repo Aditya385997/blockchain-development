@@ -17,7 +17,7 @@ contract SimpleStorage
 
    People [] public people;
 
-   function setFavNum(uint256 _favNumber) public
+   function setFavNum(uint256 _favNumber) public  virtual
    {
        favNumber = _favNumber;
    }
